@@ -51,9 +51,9 @@ paso 16: Abrir archivo local para validar que se realizó correctamente.
 ##Sudoku
 =========================================
 
-paso 1: Descargar hadoop-examples-2.7.1-sources.jar
+paso 1: Descargar **hadoop-examples-2.7.1-sources.jar**
 
-paso 2: Descargar puzzle1.dta
+paso 2: Descargar **puzzle1.dta**
 
 paso 3: Copiar ambos archivos a la carpeta temporal del contenedor
 
@@ -65,13 +65,13 @@ abriendo un nuevo shell emulando una terminal (uso en Windows)
 
 paso 5: Acceder a la carpeta temporal y ejecutar la clase MapReduce/Sudoku para "resolver" el archivo puzzle1.dta
 
-paso 6: Guardar el resultado en un archivo *solucion_puzzle1.dta*, salir del shell
+paso 6: Guardar el resultado en un archivo **solucion_puzzle1.dta**, salir del shell
 
 paso 7: Copiar el archivo al repositorio de Github.
 
 Nota: Intente replicar el ejercicio con un archivo diferente, pero la repuesta fue que no se encontraron ninguna solución  a pesar de ser un ejemplo ya resuelto extraído de Google. 
 
-Revisar puzzle2_original.txt y puzzle2.dta
+Revisar **puzzle2_original.txt** y **puzzle2.dta**
 
 
 
