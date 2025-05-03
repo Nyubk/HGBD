@@ -1,3 +1,5 @@
+#EJERCICIO 1
+=========================================
 paso 1: Crear repositorio
 
 paso 2: Descargar e instalar docker
@@ -41,8 +43,36 @@ paso 15: Regresar a carpeta base y ejecutar:
 
 docker cp namenode:/tmp/harry-potter-copy.txt .
 
-Para validar que se haya copiado correctamente
+*Para validar que se haya copiado correctamente*
 
 paso 16: Abrir archivo local para validar que se realizó correctamente.
+
+#EJERCICIO 2 
+##Sudoku
+=========================================
+
+paso 1: Descargar hadoop-examples-2.7.1-sources.jar
+
+paso 2: Descargar puzzle1.dta
+
+paso 3: Copiar ambos archivos a la carpeta temporal del contenedor
+
+paso 4: Acceder al contenedor en el nodo maestro insertando la linea de codigo:
+
+docker exec -it namenode bash en la terminal actual 
+
+abriendo un nuevo shell emulando una terminal (uso en Windows)
+
+paso 5: Acceder a la carpeta temporal y ejecutar la clase MapReduce/Sudoku para "resolver" el archivo puzzle1.dta
+
+paso 6: Guardar el resultado en un archivo *solucion_puzzle1.dta*, salir del shell
+
+paso 7: Copiar el archivo al repositorio de Github.
+
+Nota: Intente replicar el ejercicio con un archivo diferente, pero la repuesta fue que no se encontraron ninguna solución  a pesar de ser un ejemplo ya resuelto extraído de Google. 
+
+Revisar puzzle2_original.txt y puzzle2.dta
+
+
 
 
